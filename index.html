@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página princípal</title>
+</head>
+<body>
+    <h1>MEU PASSO A PASSO WEB </h1> 
+     <hr>
+     <h3>Essa página será o passo a passo da forma como aprendi a criar uma página web ou html. Aprender a instalar e configurar o ambiente de desenvolvimento, entender o funcionamento do inspetor de elementos do navegador e como vamos uma página.</h3>
+
+     <h2> Índice</h2>
+     <ul>
+        <li><a href="#ferramentas">Ferramentas</a> </li>
+        <li><a href="#Estrutura-básica">Estrutura básica do Html</a></li>
+        <li><a href="#As-Tags">As Tags</a> <></li>
+        <li><a href="#Os-atributos">Os atributos das tags</a></li>
+        <li><a href="#Textos">Textos</a></li>
+        <li><a href="#Listas">Listas </a></li>
+        <li><a href="#Link">Link</a></li>
+     </ul>
+
+     <h2 id="Ferramentas"><u>Ferramentas</u></h2>
+     <p>Vamos utilizar o <strong><a href="https://code.visualstudio.com/" target="_blank">Visual Studio Code</a></strong> , esse programa e uma ferramenta open Soure, mas existem outros. Para desenvolver uma página web podemos utilizar qualquer editor de texto, como bloco de notas por exemplo.</p>
+     <p>Após baixar e instalar o VScode vamos instalar a extensão LiveServe, que será muito útil para leitura dos html como pagina no navegador. Outra ferramenta/extensão no Vscode é a do próprio Html, mas essa extensão já vem instalado no programa. Emmet, é uma ferramenta muito usada, ela cria uma página html já pré-definida.</p>
+     <p>Inspeção dos elementos é um console/ferramenta muito utilizado para estudar como a pagina web foi criada, com ele conseguimos ver toda a estrutura do html que quisermos. Para acessarmos ele basta clicar <strong>F12</strong> no teclado e o console será aberto.</p>
+     
+     <h2 id="Estrutura-básica"><u>Estrutura básica do Html</u></h2>
+     <p>Primeiro vamos criar uma pasta específica de trabalho, depois vamos abri-la no Vscode. Criamos um arquivo index.html (index significa pagina principal). O Html consiste em 3 partes, são elas;</p>
+     <p><strong>< html ></strong> - que é toda a pagina;</p>
+     <p><strong>< head ></head></strong> - tudo que estiver entre ele são as coisas que irão carregar antes de exibir para o usuário;</p>
+     <p><strong>< body ></body></strong> - tudo que estiver entre ele são as coisas que irão aparecer para o usuário que acessar na página.</p>
+     
+     <h2 id="As-Tags"><u>As Tags < ></u></h2>
+     <p>As tags dão uma função, tudo o que estiver entre elas o navegador irá interpretar de uma forma.</p>
+     <p>< > - usamos as tags para aplicar a função </>  </p>
+     <p>< i > - Deixa o texto em <i>itálico</i></p>
+     <p>< strong > - Deixa o texto em <strong>negrito</strong> </p>
+     <p>< imput > - essa tag não tem fechamento, usa-se ela para criar campo de digitação</p>
+     <p>< img / > coloca uma imagem </p>
+     
+     <h2 id="Os-atributos"><u>Os atributos das tags</u></h2>
+     <p>São propriedades que uma tag pode ter, existem as globais que todas as tags irão ter, e outras específicas de cada tag</p>
+     <p>< strong id="titulo" >  o id  é utilizado como identificador de elemento</p>
+     <p>< strong style="color:blue" >  o style e usado para alterar a cor do texto </p>
+     <p>< strong class="titulo-principal" >   usado para toda a seleção ficar com a mesma cor.</p>
+     
+     <h2 id="Textos"><u>Textos</u></h2>
+     <p>Para criação dos  textos são usadas algumas tags que servirão para formatação edição e marcações.</p>
+     <p>< h1 > usado para títulos</p>
+     <p>< h2 > para subtítulos</p>
+     <p>< p > para o texto, são os parágrafos </p>
+     <p>< blockquote > usado para citação </p>
+     <p>< u > cria underline nas palavras</p>
+     <p>< mark > marca texto</p>
+     
+     <h2 id="Listas"><u>Listas </u></h2>
+     <p>Existem os esquemas de listas também, que são as listas ordenadas < ol > e as listas não ordenadas < ul >.</p>
+     <p>Para o uso das < ol > devemos usar as tags < li > que são suas tags filhas para identificar o padrão da ordem das listas.</p>
+     <p>ex: < ol >
+     <p> < li > Item 1< /li ></p>
+     <p> < li > Item 2< /li >
+     <p> < /ol ></p>
+     <p>Já para < ul > não é necessário, as lista não ordenadas criarão marcadores. Essa tag e muito utilizada para criar menus com a utilização do CSS.</p>
+    
+     <h2 id="Link"><u>Link</u></h2>
+     <p> Usamos < a > de ancor, ancorar, para ligar ou ligar os links das página/html..</p>
+     <p>< a href="site" > o nome < /a ></p>
+     <p>< a href="site" target="_blank" > texto < /a >  - esse atributo é usado para a paginar abrir em outra aba.</p>
+     <p>< hr > cria uma ina abaixo do texto.</p>
+     <p>< a href="#local do id x" >  esse atributo ira fazer a movimentação até o id que for definido.</p>
+     <p>Ex: < h2 id=x" ></h2></p>
+
+
+
+    </body>
+</html>
